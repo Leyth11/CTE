@@ -23,10 +23,6 @@ class Seance {
     private $_id;
 
 //Gets
-    public function get_type() {
-        return $this->_type;
-    }
-
     public function get_poste() {
         return $this->_poste;
     }
@@ -116,15 +112,15 @@ class Seance {
         return true;
     }
 
-    public function __construct( $idConstruct, $contenuConstruct, $posteConstruct, $professeurConstruct, $dateConstruct, $matiereConstruct, $classeConstruct, $typeConstruct) {
-        $this->_id;
-        $this->_contenu;
-        $this->_poste;
-        $this->_professeur;
-        $this->_date;
-        $this->_matiere;
-        $this->_classe;
-        $this->_type;
+    public function __construct( $idConstruct, $contenuConstruct, $posteConstruct, $professeurConstruct, $dateConstruct, $matiereConstruct, $classeConstruct) {
+        $this->_id = $idConstruct;
+        $this->_contenu = $contenuConstruct;
+        $this->_poste = $posteConstruct;
+        $this->_professeur = $professeurConstruct;
+        $this->_date = $dateConstruct;
+        $this->_matiere = $matiereConstruct;
+        $this->_classe = $classeConstruct;
+        $this->_type = "seance";
     }
     
 }
