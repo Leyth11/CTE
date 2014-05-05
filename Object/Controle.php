@@ -45,23 +45,18 @@ class Controle {
         return $this->_matiere;
     }
 
-    public function get_type()
-    {
-        return $this->_type;
-    }
-
     public function toTab()
     {
         return array('date' => $this->_date, 'horaire' => $this->_horaire, 'professeur' => $this->_professeur, 'classe' => $this->_classe, 'matiere' => $this->_matiere, 'type' => $this->_type);
     }
 
-    public function __construct( $DateConstruct, $HoraireConstruct, $ProfesseurConstruct, $MatiereConstruct, $TypeConstruct)
+    public function __construct( $DateConstruct, $HoraireConstruct, $ProfesseurConstruct, $MatiereConstruct)
     {
         $this->_date = $DateConstruct;
         $this->_horaire = $HoraireConstruct;
         $this->_professeur = $ProfesseurConstruct;
         $this->_classe = $MatiereConstruct;
-        $this->_type = $TypeConstruct;
+        $this->_type = "controle";
     }
     
 }
