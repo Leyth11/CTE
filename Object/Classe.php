@@ -25,10 +25,6 @@ class Classe {
         return $this->_libelle;
     }
 
-    public function get_type(){
-        return $this->type;
-    }
-
     public function __construct( $idConstruct, $LibelleConstruct) {
         $this->_id = $idConstruct;
         $this->_Libelle = $LibelleConstruct;
