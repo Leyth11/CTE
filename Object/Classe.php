@@ -12,8 +12,11 @@
  * @author AntoineD
  */
 class Classe {
+
     private $_id;
     private $_libelle;
+    private $_type;
+    
     public function get_id() {
         return $this->_id;
     }
@@ -23,8 +26,9 @@ class Classe {
     }
 
     public function __construct( $idConstruct, $LibelleConstruct) {
-        $_id = $idConstruct;
-        $_Libelle = $LibelleConstruct;
+        $this->_id = $idConstruct;
+        $this->_Libelle = $LibelleConstruct;
+        $this->_type = "classe";
     }
     
 }
