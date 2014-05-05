@@ -47,7 +47,14 @@ class Controle {
 
     public function toTab()
     {
-        return array('date' => $this->_date, 'horaire' => $this->_horaire, 'professeur' => $this->_professeur, 'classe' => $this->_classe, 'matiere' => $this->_matiere, 'type' => $this->_type);
+        return  array(
+                    'date'      => $this->_date,
+                    'horaire'   => $this->_horaire,
+                    'professeur'=> $this->_professeur,
+                    'classe'    => $this->_classe,
+                    'matiere'   => $this->_matiere,
+                    'type'      => $this->_type
+                );
     }
 
     public function __construct( $DateConstruct, $HoraireConstruct, $ProfesseurConstruct, $MatiereConstruct)
