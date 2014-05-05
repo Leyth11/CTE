@@ -1,0 +1,118 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* Police de caractères */
+	@font-face {
+		font-family: "KarmaticArcade";
+		src: url('../fonts/KarmaticArcade.ttf');
+	}
+/* Police de caractères Fin */
+
+/* Page Entière */
+	body {
+		margin-top: 10px;
+	}
+
+	.row {
+		margin-right: 0;
+	}
+
+	.input-group-addon-width-min-80 {
+	    min-width:80px;
+	    text-align:right;
+	}
+
+	.input-group-addon-width-min-150 {
+	    min-width:150px;
+	    text-align:right;
+	}
+
+	.margin-bottom-5 {
+		margin-bottom: 5px;
+	}
+
+	.padding-top-5 {
+		padding-top: 5px;
+	}
+
+	.no-margin-bottom {
+		margin-bottom : 0;
+	}
+
+/* Page Entière */
+
+/* Navbar */
+	.logo {
+		padding-top: 20px;
+		font-family: KarmaticArcade;
+		font-size: 200%;
+	}
+
+/* Navbar Fin */
+
+/* Footer */
+	footer.footer {
+		position: fixed;
+		bottom: 0;
+	}
+
+	footer.footer a {
+		color: #999;
+	}
+
+	footer.footer a:hover {
+		color: #999;
+	}
+/* Footer Fin */
+
+/* Glyphicon */
+	.glyphicon-lg {
+		font-size: 200%;
+	}
+/* Glyphicon Fin */
+
+/* Color */
+	.red * {
+		color: #d22;
+	}
+
+	.green * {
+		color: #2d2;
+	}
+
+	.blue * {
+		color: #22d;
+	}
+
+	.black * {
+		color: #222;
+	}
+
+	.white * {
+		color: #ddd;
+	}
+
+	.gray * {
+		color: #999;
+	}
+/* Color Fin*/
+
+/* Table */
+	table.vertical-align-middle tr td {
+		vertical-align : middle;
+	}
+
+	.td-center {
+		text-align: center;
+	}
+/* Table Fin */
+
+/* Typographie */
+	.HCenter {
+		text-align: center;
+	}
+
+	.VCenter {
+		vertical-align: middle;
+	}
+/* Typographie Fin */
